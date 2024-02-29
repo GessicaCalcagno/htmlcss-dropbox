@@ -9,19 +9,24 @@ img {
     max-width: 100%;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     /* debug */
     background-color: aqua;
 }
-.flex{
+
+.flex {
     display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 /* HEADER */
 header {
-   justify-content: space-between;
-    position: fixed;  
+    justify-content: space-between;
+    position: fixed;
     width: 100%;
     z-index: 9999;
     /* debug */
@@ -41,24 +46,25 @@ a {
     margin-right: 10px;
 }
 
-main{
-   padding-top: 70px;
+main {
+    padding-top: 70px;
 }
 
 /* HEDER LEFT */
 .h-left,
-.h-right{
+.h-right {
     width: 30%;
     /* debug */
     border-style: dotted;
-    background-color: #FFC0CB; 
+    background-color: #FFC0CB;
 
 }
 
 /* HERO */
-.section1{
+.section1 {
     background-color: aliceblue;
 }
+
 .hero {
     display: flex;
     align-items: center;
@@ -83,17 +89,98 @@ main{
     margin: 0 auto;
     padding: 20px 20px;
 }
-.container-text{
+
+.container-text {
     width: 30%;
     min-height: 100px;
     /* padding: 40px 20px; */
-    background-color: #b01730; 
-    border-style: dotted; 
+    background-color: #b01730;
+    border-style: dotted;
 }
+
 .container-immagine {
     min-height: 100px;
     width: 70%;
     background-color: #117c9f;
     border-style: dotted;
 }
+
 /* -HERO */
+
+/* MAIN */
+
+.container{
+    display: flex;
+    min-height: 100px;
+
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 20px 20px;
+    width: 80%;
+    background-color: #b01730;
+}
+
+.wrap-col{
+    display: flex;
+}
+.col {
+    width: calc(100% / 3);
+    padding: 10px;
+    background-color: aquamarine;
+    flex-direction: column;
+    display: flex;
+    height: 100px;
+}
+.card{
+    height: 100px;
+    background-color: #b01730;
+    /* flex-direction: column; */
+}
+
+.title {
+    width: 100%;
+    background-color: #FFC0CB;
+}
+
+/* SEZIONE 3 */
+
+.etichetta{
+    width: 100%;
+    /* debug */
+    background-color: aliceblue;
+    min-height: 50px;
+}
+
+.text{
+    /* debug */
+    width: 100%;
+    background-color: rgb(85, 135, 179);
+    min-height: 50px;
+}
+
+.m-immagine{
+    width: 80%;
+    background-color: rgb(215, 218, 46);
+    min-height: 50px;
+}
+.m-text{
+    width: 20%;
+    background-color: rgb(22, 131, 84);
+    min-height: 50px;
+
+}
+
+/* CARDS */
+.collonna{
+    width: calc(100% / 3);
+    padding: 10px;
+
+    min-height: 50px;
+    background-color: aquamarine;
+}
+
+.width-provvisoria{
+width: 100%;
+background-color: #007bff;
+}
