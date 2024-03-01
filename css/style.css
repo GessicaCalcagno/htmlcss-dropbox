@@ -59,8 +59,6 @@ header{
     align-items: center;
 }
 
-
-/* HEDER LEFT */
 .lih {
     display: flex;
     align-items: center;
@@ -77,14 +75,15 @@ header{
     border: 0;
     color: white;
 }
+/* AND HEADER  */
 
 /* HERO */
-.section1 {
-    background-color: rgb(66, 135, 196);
+.section-hero {
+    background-color: rgb(169, 205, 238);
     min-height: 100px;
 }
 
-.hero {
+.container-hero {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,39 +92,57 @@ header{
     
 }
 
-.hr-nav {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    background-color: #FFC0CB;
+.wrapper-hero {
+    text-align: left;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 70%;
+    /* background-color: #FFC0CB; */
     /* min-height: 100px; */
     /* margin: 100px 20px 0 20px; */
 }
 
-.hrcontainer {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 10px 20px;
+.hr{
+    /* padding: 0px 10px; */
+    position: relative;
+}
+/* HERO SOPRA */
+.hr-title{
+    font-size: 2.5rem;
+    padding: 10px 10px;
+}
+.pdd-htext{
+    padding: 0 0 20px 0;
 }
 
-.container-text {
-    width: 30%;
+/* HERO LEFT */
+.hr-text {
+    width: 40%;
     min-height: 100px;
-    /* padding: 40px 20px; */
-    background-color: #b01730;
-    border-style: dotted;
+    padding: 10px 10px;
+    /* background-color: #b01730;
+    border-style: dotted; */
 }
 
-.container-immagine {
-    min-height: 100px;
-    width: 70%;
-    background-color: #117c9f;
-    border-style: dotted;
+.icona-hr{
+    font-size: 2rem;
 }
 
-/* -HERO */
+/* HERO RIGHT  */
+.hero-immagine {
+    width: 60%;
+    /* min-height: 100px; */
+    /* background-color: #117c9f;
+    border-style: dotted; */
+}
+
+.hero-immagine img{
+position: absolute;
+top: 0;
+left: 40%;
+width: 70%;
+}
+/* AND HERO */
 
 /* MAIN */
 
