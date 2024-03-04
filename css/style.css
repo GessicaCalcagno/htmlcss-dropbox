@@ -9,26 +9,23 @@ img {
     max-width: 100%;
 }
 
-/* COMMON */
-ul {
-    list-style-type: none;
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
-    /* debug */
-    /* background-color: aqua; */
-
 }
 
+main {
+    padding-top: 70px;
+}
+
+/* UTILITIES */
 a {
     text-decoration: none;
     margin-right: 10px;
     color: inherit;
 }
 
-main {
-    padding-top: 70px;
+ul {
+    list-style-type: none;
 }
 
 .flex {
@@ -48,15 +45,12 @@ main {
     justify-content: center;
 }
 
-
 /* HEADER */
 header {
     justify-content: space-between;
     position: fixed;
     width: 100%;
     z-index: 9999;
-    /* debug */
-    /* border: 2px solid rgba(0, 0, 0, 0); */
     background-color: white;
     height: 70px;
     padding: 3px;
@@ -95,17 +89,16 @@ header {
     justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
-
 }
 
 .wrapper-hero {
     text-align: left;
-    /* align-items: center; */
-    /* justify-content: center; */
     width: 70%;
     /* background-color: #FFC0CB; */
     /* min-height: 100px; */
     /* margin: 100px 20px 0 20px; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
 .hr {
@@ -166,20 +159,20 @@ header {
 .container {
     display: flex;
     min-height: 100px;
-
 }
 
 .wrapper {
     margin: 0 auto;
     width: 60%;
     /* DEBUG */
-    background-color: #b01730;
+    /* background-color: #b01730; */
 }
 
 /* DEBUG */
 .bck-wuite {
     background-color: white;
 }
+/* AND DEBUG */
 
 .col {
     width: calc(100% / 3);
@@ -194,6 +187,7 @@ header {
 .card {
     min-height: 100px;
     padding: 30px 20px;
+    /* debug */
     background-color: #8a3644;
 }
 
@@ -206,6 +200,10 @@ header {
     padding-bottom: 20px;
 }
 
+.pdg-btm-50 {
+    padding-bottom: 50px;
+}
+
 .inline-block {
     display: inline-block;
 }
@@ -216,7 +214,6 @@ header {
 
 .pdg-top-20 {
     padding-top: 20px;
-
 }
 
 .margin-top-50 {
@@ -228,17 +225,15 @@ header {
     /* width: 100%; */
     /* background-color: #FFC0CB; */
 }
-
 /* FINE PLAN SETCTION */
 
-/* SEZIONE 3  TEAM*/
 
+/* SEZIONE TEAM - 3*/
 .etichetta {
     width: 100%;
     /* debug */
     background-color: white;
     min-height: 50px;
-
 }
 
 .bordo {
@@ -249,7 +244,6 @@ header {
     min-height: 50px;
     width: 60%;
     /* debug */
-
     background-color: white;
     padding: 20px;
 }
@@ -269,6 +263,7 @@ header {
     text-align: right;
 }
 
+
 /* SEZIONE PARTNERS */
 .m-immagine {
     width: 60%;
@@ -277,7 +272,6 @@ header {
     padding-top: 70px;
     /* debug */
     background-color: white;
-
 }
 
 .m-text {
@@ -294,7 +288,6 @@ header {
 }
 
 
-
 /* CARDS */
 .collonna {
     width: calc(100% / 3);
@@ -306,12 +299,13 @@ header {
 
 .width-provvisoria {
     width: 100%;
-    background-color: #007bff;
+    /* background-color: #007bff; */
 }
 
 .font-card {
     font-size: 1.2rem;
 }
+
 
 /* <!-- SEZIONE SCOPRI DI PIù SUI CLIENTI --> */
 .testo-business {
@@ -321,6 +315,56 @@ header {
 .vuoto {
     width: 40%;
 }
+
+/* SEZIONE PRVA GRATUITA */
+.free-trial{
+    background-color: rgb(169, 205, 238);
+    min-height: 100px
+}
+
+
+.title-trial {
+    font-size: 1.2rem;
+    width: 60%;
+    /* background-color: #FFC0CB; */
+}
+
+.btn-trial{
+    padding-left: 10px;
+    font-size: 1rem;
+    border: 0;
+}
+.trial{
+    width: 40%;
+    padding: 50px 0;
+    justify-content: right;
+}
+
+.title-trial{
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+/* QUESTIONS SECTION */
+
+.title-questions{
+    font-size: 1.2rem;
+    padding: 50px 0 50px 0;
+}
+
+.question{
+    font-size: 1.1rem;
+    padding: 10px 0 10px 0;
+}
+
+.answer{
+    font-size: 1rem;
+    padding: 10px 0 10px 0;
+}
+
+/* HOVER? */
+
 
 
 
