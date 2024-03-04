@@ -69,7 +69,6 @@ ul {
     padding-right: 10px;
 }
 
-
 .pdg-top-20 {
     padding-top: 20px;
 }
@@ -86,6 +85,8 @@ ul {
 color: blue;
 }
 /* ------------------------------------------- */
+
+
 /* HEADER */
 header {
     justify-content: space-between;
@@ -111,9 +112,8 @@ header {
     border: 0;
     color: white;
 }
-
-
 /* AND HEADER  */
+
 
 /* ------------------------------------------- */
 /* HERO */
@@ -174,6 +174,7 @@ header {
 /* AND HERO */
 /* ------------------------------ */
 
+
 /* MAIN */
 
 .plan-section {
@@ -193,7 +194,6 @@ header {
 .wrapper {
     margin: 0 auto;
     width: 60%;
-    /* background-color: #b01730; */
 }
 
 .col {
@@ -204,8 +204,6 @@ header {
     min-height: 100px;
     border: 1px solid black;
 }
-
-
 /* FINE PLAN SETCTION */
 /* ----------------------------------- */
 
@@ -234,8 +232,9 @@ header {
 .btn-right {
     text-align: right;
 }
-
 /* ---------------------------------------- */
+
+
 /* SEZIONE PARTNERS */
 .m-immagine {
     width: 60%;
@@ -253,28 +252,24 @@ header {
     padding: 15px 5px 15px 15px;
     background-color: white;
 }
+/* ---------------------------------------- */
 
 
 /* CARDS */
 .collonna {
     width: calc(100% / 3);
     min-height: 50px;
-    /* debug */
-    /* background-color: rgb(230, 222, 16);
-    padding: 5px;  */
 }
 
 .card {
     min-height: 100px;
-    /* padding: 30px 20px; */
-    /* debug */
-    /* background-color: #8a3644; */
 }
 
 .font-card {
     font-size: 1.2rem;
 }
 /* ----------------------------------- */
+
 
 /* <!-- SEZIONE SCOPRI DI PIù SUI CLIENTI --> */
 .testo-business {
@@ -285,6 +280,7 @@ header {
     width: 40%;
 }
 /* ----------------------------------- */
+
 /* SEZIONE PROVA GRATUITA */
 .free-trial{
     background-color: rgb(169, 205, 238);
@@ -294,7 +290,6 @@ header {
 .title-trial {
     font-size: 1.2rem;
     width: 60%;
-    /* background-color: #FFC0CB; */
 }
 
 .btn-trial{
@@ -319,6 +314,8 @@ header {
     color: #027cff;
 }
 /* ----------------------------------- */
+
+
 /* LOGHI */
 .container-loghi{
     width: 100%;
@@ -346,16 +343,15 @@ header {
 .logo4{
     background-color: blueviolet;
 }
+
 /* LOGO CENTRALE */
-
-
 .back-gray{
     background: rgb(248, 246, 246);
     width: 100%;
     height: 100%;
     padding: 30px;
-
 }
+
 .logo-designit{
     width: 50%;
     height: 60px;
@@ -364,6 +360,8 @@ header {
 .invert{
     filter: invert(1);
 }
+/* ---------------------------------------- */
+
 
 /* QUESTIONS SECTION */
 .title-questions{
@@ -380,10 +378,10 @@ header {
     font-size: 1rem;
     padding: 10px 0 10px 0;
 }
-
 /* ----------------------------------------- */
-/* HOVER */
 
+
+/* HOVER */
 /* header */
 .brd-btm :hover{
     border-bottom:1px solid #027cff;
@@ -392,7 +390,7 @@ header {
 .btnh-blu:hover{
     background-color: #3d6fa5;
 }
-/* --- */
+/* -- */
 .scopri:hover{
     color: rgb(37, 6, 211);
     text-decoration: underline;
@@ -408,9 +406,7 @@ header {
 .question:hover .answer{
     display: block;
 }
-
 /* ----------------------------------------- */
-
 
 
 /* FOOTER */
@@ -427,8 +423,6 @@ header {
 .f-blu {
     width: 20%;
     min-height: 100px;
-    /* border-style: dotted; */
-    /* background-color: #ADD8E6; */
 }
 .footer-top{
     padding: 50px 5px 50px 100px;
@@ -443,16 +437,13 @@ h5{
     width: 100%;
     justify-content: left;
     padding: 20px 100px;
-    /* background-color: aquamarine; */
 }
-
 
 .bold {
     font-weight: bold;
 }
 
-
 .li-f {
     margin-bottom: 10px;
 }
-
+/* ----------------------------------------- */
