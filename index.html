@@ -31,6 +31,7 @@
                 <li class="lih brd-btm  flex"> <a href="">Perchè Dropbox </a></li>
                 <li class="lih brd-btm  flex"> <a href="">Piani e Prezzi </a></li>
                 <li class="lih flex">
+<!-- Un anchor tag non deve stare nel tag button (non può essere entrambe le cose) -->
                     <button class="btnh-blu">
                         <a href="">Inizia</a>
                     </button>
@@ -79,19 +80,21 @@
         <!-- WRAPPER 80% 1 -->
         <section class="plan-section ">
             <div class="wrapper">
-                    <div>
-                        <h1 class="pdg-btm-20 title">Trova il piano business che fa per te</h1>
-                    </div>
-                    <div class="pdg-btm-20">
-                        <label>
-                            <input type="radio" name="fatturazione mensile" id="">
-                        </label>
+                <div>
+                    <h1 class="pdg-btm-20 title">Trova il piano business che fa per te</h1>
+                </div>
+                <div class="pdg-btm-20">
+                    <label>
+                        <input type="radio" name="fatturazione mensile" id="">
                         <span>Fatturazione mensile</span>
-                        <label>
-                            <input type="radio" name="fatturazione annuale" id="">
-                        </label>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="fatturazione annuale" id="">
                         <span>Fatturazione annuale</span>
-                    </div>
+                    </label>
+
+                </div>
                 <!-- CONTENITORE COLONNE  -->
                 <!-- 1 COLONNE -->
                 <div class="flex gap-20">
@@ -382,85 +385,67 @@
                     <div class=" flex wrap">
                         <div class="collonna">
                             <div class="card pdg-btm-20 pdg-right-10 pdg-top-20">
-                                <div>
-                                    <img src="./img/business-feature-switching-tools.png" alt="">
-                                </div>
-                                <div>
-                                    <h4 class="pdg-btm-10 font-card">Passa di meno da uno strumento all'altro</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, sed maiores
-                                        facilis, nisi dicta aspernatur sint sit enim iusto sunt nulla voluptates culpa,
-                                        excepturi error facere. Perspiciatis velit alias totam?</p>
-                                </div>
+                                <img src="./img/business-feature-switching-tools.png" alt="">
+                                
+                                <h4 class="pdg-btm-10 font-card">Passa di meno da uno strumento all'altro</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, sed maiores
+                                    facilis, nisi dicta aspernatur sint sit enim iusto sunt nulla voluptates culpa,
+                                    excepturi error facere. Perspiciatis velit alias totam?</p>
                             </div>
                         </div>
                         <!-- 2 COLONNE -->
                         <div class="collonna">
                             <div class="card pdg-btm-20 pdg-right-10 pdg-top-20">
-                                <div>
                                     <img src=" ./img/business-feature-integrations-it.png" alt="">
-                                </div>
-                                <div>
+                                    
                                     <h4 class="pdg-btm-10 font-card">Passa di meno da uno strumento all'altro</h4>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, sed maiores
                                         facilis, nisi dicta aspernatur sint sit enim iusto sunt nulla voluptates culpa,
                                         excepturi error facere. Perspiciatis velit alias totam?</p>
-                                </div>
                             </div>
                         </div>
                         <!-- 3 COLONNE -->
                         <div class="collonna">
                             <div class="card pdg-btm-20 pdg-right-10 pdg-top-20">
-                                <div>
                                     <img src="./img/business-feature-multi-device.png" alt="">
-                                </div>
-                                <div>
+                                    
                                     <h4 class="pdg-btm-10 font-card">Passa di meno da uno strumento all'altro</h4>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, sed maiores
                                         facilis, nisi dicta aspernatur sint sit enim iusto sunt nulla voluptates culpa,
                                         excepturi error facere. Perspiciatis velit alias totam?</p>
-                                </div>
                             </div>
                         </div>
                         <!-- 4 COLONNE -->
                         <div class="collonna">
                             <div class="card pdg-btm-20 pdg-right-10 pdg-top-20">
-                                <div>
                                     <img src="./img/business-feature-send-files-it.png" alt="">
-                                </div>
-                                <div>
+                               
                                     <h4 class="pdg-btm-10 font-card">Passa di meno da uno strumento all'altro</h4>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, sed maiores
                                         facilis, nisi dicta aspernatur sint sit enim iusto sunt nulla voluptates culpa,
                                         excepturi error facere. Perspiciatis velit alias totam?</p>
-                                </div>
                             </div>
                         </div>
                         <!-- 5 COLONNE -->
                         <div class="collonna">
                             <div class="card pdg-btm-20 pdg-right-10 pdg-top-20">
-                                <div>
                                     <img src="./img/business-feature-coordinate-it.png" alt="">
-                                </div>
-                                <div>
+                               
                                     <h4 class="pdg-btm-10 font-card">Passa di meno da uno strumento all'altro</h4>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, sed maiores
                                         facilis, nisi dicta aspernatur sint sit enim iusto sunt nulla voluptates culpa,
                                         excepturi error facere. Perspiciatis velit alias totam?</p>
-                                </div>
                             </div>
                         </div>
                         <!-- 6 COLONNE -->
                         <div class="collonna">
                             <div class="card pdg-btm-20 pdg-right-10 pdg-top-20">
-                                <div>
                                     <img src="./img/business-feature-security.png" alt="">
-                                </div>
-                                <div>
+                               
                                     <h4 class="pdg-btm-10 font-card">Passa di meno da uno strumento all'altro</h4>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, sed maiores
                                         facilis, nisi dicta aspernatur sint sit enim iusto sunt nulla voluptates culpa,
                                         excepturi error facere. Perspiciatis velit alias totam?</p>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -490,6 +475,7 @@
         <!-- LOGHI -->
         <section class="margin-top-50">
             <div class="loghi flex ">
+
                 <!-- LOGHI SINISTRA -->
                 <div class="collonna loghi-left">
                     <div class="card ">
@@ -527,16 +513,12 @@
                                 illo, voluptatibus velit? Natus non officia dolores.</p>
                             <p class="pdg-top-20">Morten Thomsen, Global IT Lead</p>
                         </div>
-
-
                     </div>
-
                 </div>
 
                 <!-- LOGHI DESTRA -->
                 <div class="collonna loghi-right">
                     <div class="card">
-
                         <div class="container-loghi flex wrap">
                             <div class="logo1 flex">
                                 <img class="invert" src="./img/designit.svg" alt="">
@@ -595,8 +577,7 @@
 
                             <div class="answer">
                                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, consequatur.
-                                </span>
-                                <hr>
+                                </span>                        
                             </div>
                         </div>
                     </div>
@@ -610,7 +591,6 @@
                         <div class="answer ">
                             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, consequatur.
                             </span>
-                            <hr>
                         </div>
                     </div>
 
@@ -623,7 +603,6 @@
                         <div class="answer ">
                             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, consequatur.
                             </span>
-                            <hr>
                         </div>
                     </div>
                 </div>
